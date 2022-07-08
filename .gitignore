@@ -36,5 +36,6 @@ out/
 ### VS Code ###
 .vscode/
 
-.conf
+flyway.conf
 .env
+node_modules
