@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import com.coffee.hollys.member.entity.Member;
 import com.coffee.hollys.order.Status;
@@ -16,6 +17,7 @@ import lombok.Getter;
 
 @Getter
 @Entity
+@Table(name = "orders")
 public class Order {
 
 	@Id
